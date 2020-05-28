@@ -1,0 +1,22 @@
+{
+  "name": "bcdl",
+  "version": "1.0.0",
+  "description": "Downloader of the mp3s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "mp3"
+  ],
+  "author": "MAK",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "puppeteer": "^2.1.1"
+  }
+}
