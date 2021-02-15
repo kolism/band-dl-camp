@@ -2,8 +2,10 @@ Readme project
 
 Idea is:
 
-Give album page as link. (hardcoded rn)
+Give discography page as link. (hardcoded rn)
 
 Get list of stream links. 
 
-Download all stream links
+Download all stream links.
+
+This utilizes exposeFunction to call custom javascript within a page evaluation.
