@@ -15,7 +15,7 @@ const fetch = require('fetch');
         });
     });
     const discoPage = await browser.newPage();
-    await discoPage.goto('https://bandcamp.com/music', { waitUntil: 'networkidle2' });
+    await discoPage.goto('https://band-dl-camp.xom/music', { waitUntil: 'networkidle2' });
     discoPage.on('console', msg => console.log(msg.text()));
     let albumList = await discoPage.evaluate(() => {
         function replaceAll(str, find, replace) {
@@ -70,7 +70,7 @@ const fetch = require('fetch');
     }
 
 
-    /* for each album, open page and download all teh songz */
+    /* for each album, open page and download all streams */
 
     for (let album of albumList) {
         /* open new page using the href selector */
